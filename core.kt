@@ -60,7 +60,7 @@ fun findbyval(){
         flag = 1
         println("Найденные пары по фрагменту значения:")
         for((i, e) in minutebase){
-            println("Ключ: $i; Значение: $e")
+            println(e)
         }
     }
     if(flag == 0){
